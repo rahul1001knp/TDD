@@ -63,12 +63,7 @@ if (strpos($val, '-') !== false) {
 					}
 
 			}
-			// if ($a < 0 || $b < 0) {
-			// 	return "negatives not allowed";	
-			// }
-			// else if ($a < 0 || $b < 0) {
-			// 	# code...
-			// }
+			
 			return $final_val;
 		}
 	}
