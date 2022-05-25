@@ -1,9 +1,9 @@
 <?php 
 
 function clean($string) {
-   $string = str_replace(' ', '-', $string); // Replaces all spaces with hyphens.
+   $string = str_replace(' ', '-', $string); 
 
-   return preg_replace('/[^0-9\-]/', '', $string); // Removes special chars.
+   return preg_replace('/[^0-9\-]/', '', $string); 
 }
 function add_string($val)
 {
